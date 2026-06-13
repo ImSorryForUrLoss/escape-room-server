@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:verdant_froglight"
+		},
+		"title": "Logical!",
+		"description": "Multiple people make escape rooms? (Beat 0-6)",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"parent":"level_tweaks:win_0-5",
+	"criteria": {
+		"namespace": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function": "level_tweaks:advancement_complete"
+	}
+}

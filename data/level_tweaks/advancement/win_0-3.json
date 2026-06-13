@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:barrier"
+		},
+		"title": "literally unplayable.....",
+		"description": "Discover the MASSIVE ERRORS in the server. also beat 0-3 or whatever i guess",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"parent":"level_tweaks:win_0-2",
+	"criteria": {
+		"namespace": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function": "level_tweaks:advancement_complete"
+	}
+}

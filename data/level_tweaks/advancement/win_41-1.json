@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:diamond"
+		},
+		"title": "Logical",
+		"description": "Beat the only logical level ever made, 41-6",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": true
+	},
+	"parent":"level_tweaks:win_41-6",
+	"criteria": {
+		"namespace": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function": "level_tweaks:advancement_complete"
+	}
+}

@@ -1,0 +1,4 @@
+# handle written book for /trigger spoiler
+tellraw @a[tag=logs] [{"color":"white","text":"running function "},{"color":"green","text":"level_tweaks:written"},{"color":"white","text":" with {}"}]
+
+tellraw @a [{"text":"<"},{"selector":"@p"},{"text":"> "},{"hoverEvent":{"action":"show_text","contents":{"block":"0 128 0","source":"block","nbt":"Items[{id:\"minecraft:written_book\"}].components.\"minecraft:written_book_content\".pages[0].raw"}},"text":"[Spoiler - Hover] ("},{"block":"0 128 0","source":"block","nbt":"Items[{id:\"minecraft:written_book\"}].components.\"minecraft:written_book_content\".title.raw"},{"text":")"}]
